@@ -6,6 +6,7 @@ class Queue
 
   def enqueue(el)
     @stack.unshift(el)
+    # Made mistake of making this .shift rather than .unshift
   end
 
   def dequeue
