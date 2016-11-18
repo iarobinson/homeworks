@@ -1,6 +1,6 @@
 class Map
   def initialize
-    @map = []
+    @map = [] # Create new array to write new values to
   end
 
   def assign(key, value)
@@ -28,6 +28,8 @@ class Map
   end
 end
 
-m = Map.new
-m.assign(:hi, 2)
-# p m.lookup(:hi)
+my_map = Map.new
+my_map.assign(:hi, 2)
+my_map.assign("ian", true)
+p my_map.lookup("ian")
+p my_map
