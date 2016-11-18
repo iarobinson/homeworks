@@ -27,3 +27,10 @@ p q
 
 # This shows the pattern of this LIFO system. 1 is removed while 2
 #   and three remain.
+#
+# The solution tells me to use @queue for the instance variable,
+#   to push el when enqueueing and to shift dequeueing rather than
+#   popping.
+#
+# I'm unsure if mine is a incorrect solution, or simply a different
+#   way of telling the same algorithm.
