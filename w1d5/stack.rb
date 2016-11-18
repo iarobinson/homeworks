@@ -4,8 +4,7 @@ class Stack
   end
 
   def add(el)
-    # My initial thought was @stack.shift(el)
-    @stack << el
+    @stack << el # My initial thought was @stack.shift(el)
     el
   end
 
