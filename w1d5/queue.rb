@@ -1,18 +1,18 @@
 
 class Queue
   def initialize
-    # Code Here
+    @stack = []
   end
 
   def enqueue(el)
-    # Code Here
+    @stack.shift(el)
   end
 
   def dequeue
-    # Code Here
+    @stack.pop
   end
 
   def show
-    # Code Here
+    @stack.dup
   end
 end
