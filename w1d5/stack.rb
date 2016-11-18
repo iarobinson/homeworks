@@ -1,17 +1,17 @@
 class Stack
   def initialize
-    # ivar stack here
+    @stack = stack
   end
 
   def add(el)
-    # add element to stack
+    @stack.shift(el)
   end
 
   def remove
-    # remove an element from stack
+    @stack.pop
   end
 
   def show
-    # return a copy to stack
+    p @stack
   end
 end
