@@ -1,10 +1,12 @@
 class Stack
   def initialize
-    @stack = stack
+    @stack = [] # My initial thought was = stack
   end
 
   def add(el)
-    @stack.shift(el)
+    # My initial thought was @stack.shift(el)
+    @stack << el
+    el
   end
 
   def remove
@@ -12,6 +14,6 @@ class Stack
   end
 
   def show
-    p @stack
+    @stack.dup # My initial thought was = p @stack
   end
 end
